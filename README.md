@@ -5,13 +5,13 @@ So we had a trivia night in Terraria, and we came across an esoteric number sequ
 
 [8, 18, 11, 15, 5, 4, 14, 9, 19, 1, 7, 17, 6, 16, 10, ?, ?, ?, ?, ?].
 
-Ofcourse, as much of a lover of mathematics and computer science as I am, I tried to decipher this number sequence, but we lost.
+Of course, as much of a lover of mathematics and computer science as I am, I tried to decipher this number sequence, but we lost.
 The host even hinted "think of the numbers as word". The first thing I thought was let 'a' be 0 or 1, the number would form a 
 string to be completed because this number sequence doesn't have room for more (... symbol at the end).
 
 But nope, how wrong was I.
 
-Turns out, the sequence is actually poorly defined, given such number sequence, one could either provide at least two solution, depending on the range of the sequence:
+Turns out, the sequence is actually poorly defined, given such number sequence, one could either provide at least two solutions, depending on the range of the sequence:
  - 13, 3, 12, 20, 2 (1 to 20)
  
  - 13, 3, 12, 2, 0 (0 to 19)
@@ -40,3 +40,5 @@ generate_num_seq_hexa(-0x69, 0x420)
  - Converting the _numerization function in numerization.py to iterative function may boost performance and memory usage.
  
  - Using a lookup table can be effective in generating numerization for large numbers, and thus boosts the time complexity of the program. (The time complexity of this program is so terrible I don't want any connection in the number theory field anymore).
+
+
