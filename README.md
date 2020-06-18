@@ -2,7 +2,9 @@
 
 ### Trivia night in Terraria
 So we had a trivia night in Terraria, and we came across an esoteric number sequence: 
+
 [8, 18, 11, 15, 5, 4, 14, 9, 19, 1, 7, 17, 6, 16, 10, ?, ?, ?, ?, ?].
+
 Ofcourse, as much of a lover of mathematics and computer science as I am, I tried to decipher this number sequence, but we lost.
 The host even hinted "think of the numbers as word". The first thing I thought was let 'a' be 0 or 1, the number would form a 
 string to be completed because this number sequence doesn't have room for more (... symbol at the end).
